@@ -1,0 +1,180 @@
+Script started on Fri 29 Nov 2024 12:15:28 PM MST
+root@ubuntu:/media/sf_Dino_Bash/wlb# make
+g++ wlb.cpp -o run -pthread -lrt
+root@ubuntu:/media/sf_Dino_Bash/wlb# ./run
+###########   Stage 1   ###########
+
+Thread D is running. Work remaining: 10
+Thread C is running. Work remaining: 10
+Thread B is running. Work remaining: 10
+Thread A is running. Work remaining: 10
+Thread D is running. Work remaining: 9
+Thread C is running. Work remaining: 9
+Thread B is running. Work remaining: 9
+Thread A is running. Work remaining: 9
+Thread D is running. Work remaining: 8
+Thread C is running. Work remaining: 8
+Thread B is running. Work remaining: 8
+Thread A is running. Work remaining: 8
+Thread D is running. Work remaining: 7
+Thread C is running. Work remaining: 7
+Thread B is running. Work remaining: 7
+Thread A is running. Work remaining: 7
+Thread D is running. Work remaining: 6
+Thread C is running. Work remaining: 6
+Thread B is running. Work remaining: 6
+Thread A is running. Work remaining: 6
+Thread D is running. Work remaining: 5
+Thread C is running. Work remaining: 5
+Thread B is running. Work remaining: 5
+Thread A is running. Work remaining: 5
+Thread D is running. Work remaining: 4
+Thread C is running. Work remaining: 4
+Thread B is running. Work remaining: 4
+Thread A is running. Work remaining: 4
+Thread D is running. Work remaining: 3
+Thread C is running. Work remaining: 3
+Thread B is running. Work remaining: 3
+Thread A is running. Work remaining: 3
+Thread D is running. Work remaining: 2
+Thread C is running. Work remaining: 2
+Thread B is running. Work remaining: 2
+Thread A is running. Work remaining: 2
+Thread D is running. Work remaining: 1
+Thread C is running. Work remaining: 1
+Thread D is finished.
+Thread B is running. Work remaining: 1
+Thread C is finished.
+Thread A is running. Work remaining: 1
+Thread B is finished.
+Thread A is finished.
+All threads have finished.
+
+###########   Stage 2   ###########
+
+D > 1
+Thread D is running. Work remaining: 10
+C > 1
+Thread C is running. Work remaining: 10
+B > 1
+Thread B is running. Work remaining: 10
+A > 0
+A > 1
+Thread A is running. Work remaining: 10
+C > 1
+C > 2
+Thread C is running. Work remaining: 9
+A > 0
+A > 1
+Thread A is running. Work remaining: 9
+CD > 2
+Thread D is running. Work remaining: 9
+ > 1
+C > 2
+Thread C is running. Work remaining: 8
+C > 0
+C > 1
+C > 2
+Thread C is running. Work remaining: 7
+A > 0
+A > 1
+A > 2
+Thread A is running. Work remaining: 8
+C > 1
+Thread C is running. Work remaining: 6
+D > 2
+Thread D is running. Work remaining: 8
+C > 0
+C > 2
+Thread C is running. Work remaining: 5
+B > 1
+Thread B is running. Work remaining: 9
+C > 0
+C > 1
+C > 2
+Thread C is running. Work remaining: 4
+A > 0
+A > 1
+A > 2
+Thread A is running. Work remaining: 7
+D > 0
+D > 1
+D > 2
+Thread D is running. Work remaining: 7
+B > 0
+B > 2
+Thread B is running. Work remaining: 8
+A > 1
+Thread A is running. Work remaining: 6
+D > 0
+D > 1
+D > 2
+Thread D is running. Work remaining: 6
+C > 0
+C > 1
+C > 2
+Thread C is running. Work remaining: 3
+B > 1
+B > 2
+Thread B is running. Work remaining: 7
+A > 0
+A > 1
+Thread A is running. Work remaining: 5
+D > 0
+D > 1
+D > 2
+Thread D is running. Work remaining: 5
+A > 0
+A > 1
+A > 2
+Thread A is running. Work remaining: 4
+C > 1
+Thread C is running. Work remaining: 2
+D > 0
+D > 1
+D > 2
+Thread D is running. Work remaining: 4
+A > 0
+A > 1
+Thread A is running. Work remaining: 3
+A > 0
+A > 1
+A > 2
+Thread A is running. Work remaining: 2
+B > 2
+Thread B is running. Work remaining: 6
+A > 1
+Thread A is running. Work remaining: 1
+B > 2
+Thread B is running. Work remaining: 5
+C > 0
+C > 2
+Thread C is running. Work remaining: 1
+D > 0
+D > 2
+Thread D is running. Work remaining: 3
+B > 0
+B > 1
+B > 2
+Thread B is running. Work remaining: 4
+B > 0
+B > 2
+Thread B is running. Work remaining: 3
+D > 0
+Thread D is running. Work remaining: 2
+D > 0
+D > 1
+D > 2
+Thread D is running. Work remaining: 1
+B > 0
+B > 1
+B > 2
+Thread B is running. Work remaining: 2
+B > 0
+B > 2
+Thread B is running. Work remaining: 1
+All threads have finished.
+root@ubuntu:/media/sf_Dino_Bash/wlb# exit
+exit
+
+Script done on Fri 29 Nov 2024 12:15:42 PM MST
