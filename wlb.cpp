@@ -101,7 +101,7 @@ void* phase2(void* arg) {
                     sem_post(&semaphores[i]);
 
                     // Show thread relinquishing resource
-                    // std::cout << data->id << " < " << i << std::endl;
+                    std::cout << data->id << " < " << i << std::endl;
                 }
             }
 
@@ -118,7 +118,7 @@ void* phase2(void* arg) {
                     sem_post(&semaphores[i]);
 
                     // Show thread relinquishing resource
-                    // std::cout << data->id << " < " << i << std::endl;
+                    std::cout << data->id << " < " << i << std::endl;
                 }
             }
 
